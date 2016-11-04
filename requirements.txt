@@ -1,0 +1,6 @@
+numpy
+scipy
+https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.11.0rc2-cp27-none-linux_x86_64.whl
+keras
+argparse
+Pillow
