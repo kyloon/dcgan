@@ -109,7 +109,7 @@ def train(batch_size, num_epoch):
                 image = combine_images(generated_images)
                 image = image*127.5+127.5
                 Image.fromarray(image.astype(np.uint8)).save(
-                    "images/"+str(epoch)+"_"+str(index)+".png")
+                    "images/"+str(epoch+1)+"_"+str(index+1)+".png")
             X = np.concatenate((image_batch, generated_images))
             y = [1] * batch_size + [0] * batch_size
             d_loss = discriminator.train_on_batch(X, y)
