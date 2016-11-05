@@ -35,3 +35,11 @@ Example:
 or
 
 `python dcgan.py --mode generate --batch_size 128 -- pretty`
+
+# Result
+
+## Training progress:
+
+Animation shows generated images during the training process of DCGAN over 100 epochs.
+
+<img src="images/dcgan-training.gif" />
