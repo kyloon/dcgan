@@ -34,7 +34,7 @@ Example:
 
 or
 
-`python dcgan.py --mode generate --batch_size 128 -- pretty`
+`python dcgan.py --mode generate --batch_size 128 --pretty`
 
 # Result
 
